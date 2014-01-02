@@ -1,6 +1,8 @@
 #Trust and Unknown In The Networked Society - Paranoia is Fair Reaction
 ####Geoff Hollingworth, Ericsson.  
 
+##Introduction
+
 **Society is moving online**.  We have an increasing dependance on digital information shared by us, kept by the companies we use, held by the companies we operate.   
 
 Online is also changing.  The Internet is moving from serving documents to managing the real time status of **"THE WORLD RIGHT NOW"**.  
