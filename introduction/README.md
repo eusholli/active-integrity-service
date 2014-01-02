@@ -25,7 +25,7 @@ We are currently living in a world where this is very questionable.  We know onl
 For an interactive journey through the all of the world's biggest data breaches:
 
 <a href="http://www.informationisbeautiful.net/visualizations/worlds-biggest-data-breaches-hacks/
-" target="_blank"><img src="img/databreaches.png" 
+" target="_blank"><img src="img/dataBreaches.png" 
 alt="World's Biggest Data Breaches" width="240" height="180" border="10" /></a>
 
 **The cost of attack is clearly very real and very significant.**
