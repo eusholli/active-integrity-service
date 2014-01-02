@@ -22,7 +22,7 @@ We are currently living in a world where this is very questionable.  We know onl
 * [Sony PlayStation Network Hack To Cost $170 Million](http://www.huffingtonpost.com/2011/05/23/sony-playstation-network-hack-cost_n_865432.html)
 * [New York utilities failed to protect customer information, report finds](http://www.infosecurity-magazine.com/view/26967/new-york-utilities-failed-to-protect-customer-information-report-finds/)
 
-For an interactive journey through the all of the world's biggest data breaches:
+For an interactive journey through the all of the world's biggest data breaches click on the below image.
 
 <a href="http://www.informationisbeautiful.net/visualizations/worlds-biggest-data-breaches-hacks/
 " target="_blank"><img src="img/dataBreaches.png" 
