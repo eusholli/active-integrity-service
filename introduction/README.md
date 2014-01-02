@@ -3,11 +3,7 @@
 
 ##Introduction
 
-**Society is moving online**.  We have an increasing dependance on digital information shared by us, kept by the companies we use, held by the companies we operate.   
-
-Online is also changing.  The Internet is moving from serving documents to managing the real time status of **"THE WORLD RIGHT NOW"**.  
-
-**Living in a safe society is as important when living online as it is when living offline.**  A society that is not safe can never function at its best optimum level.  At worse commerce stops and society breaks down.  The definition of safety in a civilized society is one where it is behaving as it is suppose to.  And since society is nothing more than a sum of its underlying systems, each system has to behave as it expected to.  **We have to trust this is true of the systems we depend upon and we serve.**  
+**Society is moving online**.  We have an increasing dependance on digital information shared by us, kept by the companies we use, held by the companies we operate.   **Living in a safe society is as important when living online as it is when living offline.**  A society that is not safe can never function at its best optimum level.  At worse commerce stops and society breaks down.  The definition of safety in a civilized society is one where it is behaving as it is suppose to.  And since society is nothing more than a sum of its underlying systems, each system has to behave as it expected to.  **We have to trust this is true of the systems we depend upon and we serve.**  
 
 In simple terms:
 
