@@ -32,10 +32,10 @@ alt="World's Biggest Data Breaches" width="240" height="180" border="10" /></a>
 
 This trend is growing and it should not surprise us.  If you run any business you should be concerned and growingly so. There is big money to be made from online crime.  
 
-* According to numbers collated by the Center for Strategic and International Studies, the United Nations Office on Drugs and Crime and antivirus firm Norton, cybercrime is worth around $400 billion annually
-* "What we've seen is a stabilization for attacks for large organizations (93% of respondents), but in the small company arena we've seen quite a big jump, from 76 to 87 percent of respondents being attacked,”
-* Security breaches at large companies cost between £450,000 ($697,000) and £850,000 ($1.3 billion) on average, in 2013. For a small business, a breach could cost anything between £35,000 and £65,000.
-*PwC's 2013 research suggested that of those companies reporting cybercrime, there had been a 50 percent increase in security breaches from 2012, with half of those breeches by internal users.
+* According to numbers collated by the Center for Strategic and International Studies, the United Nations Office on Drugs and Crime and antivirus firm Norton, **cybercrime is worth around $400 billion annually**
+* "What we've seen is a stabilization for attacks for large organizations (93% of respondents), but in the small company arena we've seen quite a big jump, **from 76 to 87 percent of respondents being attacked**,”
+* Security breaches at large companies **cost between £450,000 ($697,000) and £850,000 ($1.3 billion) on average**, in 2013. For a small business, a breach could cost anything between £35,000 and £65,000.
+* PwC's 2013 research suggested that of those companies reporting cybercrime, there had been a 50 percent increase in security breaches from 2012, **with half of those breeches by internal users**.
 
 References
 
