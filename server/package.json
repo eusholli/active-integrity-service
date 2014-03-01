@@ -1,0 +1,22 @@
+{
+	"name": "essss",
+	"description": "Ericsson Sense Secure Software Service",
+	"version": "0.0.1",
+	"author": "Geoff Hollingworth <eusholli@gmail.com>",
+	"homepage": "http://ristik.github.com/ksdbjs",
+	"license": "Apache License v2.0",
+	"main": "server.js",
+	"dependencies": {
+		"restify": "*",
+		"bunyan": "*",
+		"guardtime": "*",
+		"mongodb": "*",
+    "mongoose": "~3.8.4",
+		"xml2js": "*",
+		"jsontoxml": "*"
+	},
+	"engines": {
+		"node": ">=0.6"
+	},
+	"devDependencies": {}
+}
