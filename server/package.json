@@ -1,9 +1,9 @@
 {
-	"name": "essss",
-	"description": "Ericsson Sense Secure Software Service",
+	"name": "aidb",
+	"description": "Activity Integrity Service",
 	"version": "0.0.1",
 	"author": "Geoff Hollingworth <eusholli@gmail.com>",
-	"homepage": "http://ristik.github.com/ksdbjs",
+	"homepage": "http://eusholli.github.com/active-integrity-service",
 	"license": "Apache License v2.0",
 	"main": "server.js",
 	"dependencies": {
@@ -11,7 +11,6 @@
 		"bunyan": "*",
 		"guardtime": "*",
 		"mongodb": "*",
-    "mongoose": "~3.8.4",
 		"xml2js": "*",
 		"jsontoxml": "*"
 	},

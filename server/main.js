@@ -2,18 +2,18 @@
 var restify = require('restify');
 var bunyan = require('bunyan');
 var fs = require('fs'), url = require('url');
-var ksdb = require('./ksdb');
+var aidb = require('./aidb');
 
 var xmlBodyParser = require('./xmlbodyparser');
 var xmlresponder  = require('./xmlresponder');
 var jsonresponder = require('./jsonresponder');
 
-var appname = 'ksdb';
-var appver  = '0.3.1';
+var appname = 'aidb';
+var appver  = '0.0.1';
 
 var conf = JSON.parse(fs.readFileSync(__dirname + '/config.json', encoding="utf8")); // may throw
 
-var baseurl = conf.baseurl || '/ksdb';
+var baseurl = conf.baseurl || '/ais/api/v1';
 
 
 if (conf.apimod) {
@@ -51,7 +51,7 @@ server.use(restify.fullResponse());
 server.use(restify.bodyParser());
 server.use(xmlBodyParser());
 
-ksdb.init(conf, logger);
+aidb.init(conf, logger);
 
 server.on('after', function (req, res, route, error) {
   var plah = {req: req,
@@ -67,30 +67,13 @@ server.on('after', function (req, res, route, error) {
     req.log.info(plah, "after");
 });
 
-if (conf.apimod === 'ct') {
-  // customer specific api
-  server.get(baseurl + '/download', ksdb.download);
-  server.get(baseurl + '/verify',   ksdb.verify);
-  server.get(baseurl + '/create',   ksdb.sign);
-  server.get(baseurl + '/param', ksdb.param);
+// more 'restful' interface for gereral consumption
+server.get(baseurl + '/:hash/param',  aidb.param);
+server.get(baseurl + '/:hash/download',  aidb.download);
+server.get(baseurl + '/:hash/:hash2', aidb.strongVerify);
+server.get(baseurl + '/:hash', aidb.verify);
+server.put(baseurl + '/:hash', aidb.sign);
 
-  var dummyhandler = function (req, res, next) {
-    res.setHeader('content-type', 'application/xml');
-    res.send({res_code: 0, res_message: '成功'});
-    return next();
-  };
-  server.post('/Enabler/app_ei_sync', dummyhandler);
-  server.post('/Enabler/app_status_sync', dummyhandler);
-  server.post('/Enabler/app_user_ei_sync', dummyhandler);
-  server.post('/Enabler/resource_sync', dummyhandler);
-
-} else {
-  // more 'restful' interface for gereral consumption
-  server.get(baseurl + '/:hash/param',  ksdb.param);
-  server.get(baseurl + '/:hash/download',  ksdb.download);
-  server.get(baseurl + '/:hash', ksdb.verify);
-  server.put(baseurl + '/:hash', ksdb.sign);
-}
 
 server.listen(process.env.PORT || conf.listenport || 8080, function () {
   logger.info('%s %s listening at %s', server.name, server.versions, server.url + baseurl);
